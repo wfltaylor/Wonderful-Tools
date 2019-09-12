@@ -1,0 +1,523 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9C1A987E22B39DEA00EE1C84 /* WonderfulToolsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C1A987D22B39DEA00EE1C84 /* WonderfulToolsView.swift */; };
+		9C1D4B492328DFF40011CD74 /* Video.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C1D4B482328DFF40011CD74 /* Video.swift */; };
+		9C1D4B4B2328DFFF0011CD74 /* video.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 9C1D4B4A2328DFFE0011CD74 /* video.mp4 */; };
+		9C1D4B4C2328DFFF0011CD74 /* video.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 9C1D4B4A2328DFFE0011CD74 /* video.mp4 */; };
+		9C1D4B4D2328E00B0011CD74 /* Video.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C1D4B482328DFF40011CD74 /* Video.swift */; };
+		9C27091322B5028100F16834 /* Array+Safe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C27091222B5028100F16834 /* Array+Safe.swift */; };
+		9C27091422B5028100F16834 /* Array+Safe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C27091222B5028100F16834 /* Array+Safe.swift */; };
+		9C27093D22B5CF2400F16834 /* thumbnail.png in Resources */ = {isa = PBXBuildFile; fileRef = 9C27093B22B5CF2400F16834 /* thumbnail.png */; };
+		9C27093E22B5CF2400F16834 /* thumbnail@2.png in Resources */ = {isa = PBXBuildFile; fileRef = 9C27093C22B5CF2400F16834 /* thumbnail@2.png */; };
+		9CF9B8C922B3A06B0026517B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CF9B8C822B3A06B0026517B /* AppDelegate.swift */; };
+		9CF9B8CB22B3A06C0026517B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9CF9B8CA22B3A06C0026517B /* Assets.xcassets */; };
+		9CF9B8CE22B3A06C0026517B /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9CF9B8CC22B3A06C0026517B /* MainMenu.xib */; };
+		9CF9B8D422B3A08D0026517B /* WonderfulToolsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C1A987D22B39DEA00EE1C84 /* WonderfulToolsView.swift */; };
+		9CF9B90622B4ACA80026517B /* WonderfulToolsPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CF9B90522B4ACA80026517B /* WonderfulToolsPlayer.swift */; };
+		9CF9B90722B4ACA80026517B /* WonderfulToolsPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CF9B90522B4ACA80026517B /* WonderfulToolsPlayer.swift */; };
+		9CF9B91B22B4D06C0026517B /* Array+Appending.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CF9B91A22B4D06C0026517B /* Array+Appending.swift */; };
+		9CF9B91C22B4D06C0026517B /* Array+Appending.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CF9B91A22B4D06C0026517B /* Array+Appending.swift */; };
+		9CF9B91F22B4D1620026517B /* Array+RemovingAll.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CF9B91E22B4D1620026517B /* Array+RemovingAll.swift */; };
+		9CF9B92022B4D1620026517B /* Array+RemovingAll.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CF9B91E22B4D1620026517B /* Array+RemovingAll.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		9C1A987022B39D4A00EE1C84 /* WonderfulTools.saver */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WonderfulTools.saver; sourceTree = BUILT_PRODUCTS_DIR; };
+		9C1A987722B39D4A00EE1C84 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9C1A987D22B39DEA00EE1C84 /* WonderfulToolsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WonderfulToolsView.swift; sourceTree = "<group>"; };
+		9C1D4B482328DFF40011CD74 /* Video.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Video.swift; sourceTree = "<group>"; };
+		9C1D4B4A2328DFFE0011CD74 /* video.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = video.mp4; sourceTree = "<group>"; };
+		9C27091222B5028100F16834 /* Array+Safe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Array+Safe.swift"; sourceTree = "<group>"; };
+		9C27093B22B5CF2400F16834 /* thumbnail.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = thumbnail.png; sourceTree = "<group>"; };
+		9C27093C22B5CF2400F16834 /* thumbnail@2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "thumbnail@2.png"; sourceTree = "<group>"; };
+		9CF9B8C622B3A06B0026517B /* WonderfulTools Host.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "WonderfulTools Host.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9CF9B8C822B3A06B0026517B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9CF9B8CA22B3A06C0026517B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9CF9B8CD22B3A06C0026517B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		9CF9B8CF22B3A06C0026517B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9CF9B90522B4ACA80026517B /* WonderfulToolsPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WonderfulToolsPlayer.swift; sourceTree = "<group>"; };
+		9CF9B91A22B4D06C0026517B /* Array+Appending.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Array+Appending.swift"; sourceTree = "<group>"; };
+		9CF9B91E22B4D1620026517B /* Array+RemovingAll.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Array+RemovingAll.swift"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9C1A986D22B39D4A00EE1C84 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9CF9B8C322B3A06B0026517B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9C1A986622B39D4A00EE1C84 = {
+			isa = PBXGroup;
+			children = (
+				9C1A987222B39D4A00EE1C84 /* WonderfulTools */,
+				9CF9B8C722B3A06B0026517B /* WonderfulTools Host */,
+				9C1A987122B39D4A00EE1C84 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9C1A987122B39D4A00EE1C84 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9C1A987022B39D4A00EE1C84 /* WonderfulTools.saver */,
+				9CF9B8C622B3A06B0026517B /* WonderfulTools Host.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9C1A987222B39D4A00EE1C84 /* WonderfulTools */ = {
+			isa = PBXGroup;
+			children = (
+				9C27093B22B5CF2400F16834 /* thumbnail.png */,
+				9C27093C22B5CF2400F16834 /* thumbnail@2.png */,
+				9C1A987722B39D4A00EE1C84 /* Info.plist */,
+				9CF9B8DC22B3B1220026517B /* Screensaver */,
+				9CF9B8D722B3AF870026517B /* Video */,
+				9CF9B91922B4D04F0026517B /* Extensions */,
+			);
+			path = WonderfulTools;
+			sourceTree = "<group>";
+		};
+		9CF9B8C722B3A06B0026517B /* WonderfulTools Host */ = {
+			isa = PBXGroup;
+			children = (
+				9CF9B8C822B3A06B0026517B /* AppDelegate.swift */,
+				9CF9B8CA22B3A06C0026517B /* Assets.xcassets */,
+				9CF9B8CC22B3A06C0026517B /* MainMenu.xib */,
+				9CF9B8CF22B3A06C0026517B /* Info.plist */,
+			);
+			path = "WonderfulTools Host";
+			sourceTree = "<group>";
+		};
+		9CF9B8D722B3AF870026517B /* Video */ = {
+			isa = PBXGroup;
+			children = (
+				9C1D4B482328DFF40011CD74 /* Video.swift */,
+				9C1D4B4A2328DFFE0011CD74 /* video.mp4 */,
+			);
+			path = Video;
+			sourceTree = "<group>";
+		};
+		9CF9B8DC22B3B1220026517B /* Screensaver */ = {
+			isa = PBXGroup;
+			children = (
+				9C1A987D22B39DEA00EE1C84 /* WonderfulToolsView.swift */,
+				9CF9B90522B4ACA80026517B /* WonderfulToolsPlayer.swift */,
+			);
+			path = Screensaver;
+			sourceTree = "<group>";
+		};
+		9CF9B91922B4D04F0026517B /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				9CF9B91A22B4D06C0026517B /* Array+Appending.swift */,
+				9CF9B91E22B4D1620026517B /* Array+RemovingAll.swift */,
+				9C27091222B5028100F16834 /* Array+Safe.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		9C1A986B22B39D4A00EE1C84 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		9C1A986F22B39D4A00EE1C84 /* WonderfulTools */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9C1A987A22B39D4A00EE1C84 /* Build configuration list for PBXNativeTarget "WonderfulTools" */;
+			buildPhases = (
+				9C1A986B22B39D4A00EE1C84 /* Headers */,
+				9C1A986C22B39D4A00EE1C84 /* Sources */,
+				9C1A986D22B39D4A00EE1C84 /* Frameworks */,
+				9C1A986E22B39D4A00EE1C84 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WonderfulTools;
+			productName = Mindblown;
+			productReference = 9C1A987022B39D4A00EE1C84 /* WonderfulTools.saver */;
+			productType = "com.apple.product-type.bundle";
+		};
+		9CF9B8C522B3A06B0026517B /* WonderfulTools Host */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9CF9B8D322B3A06C0026517B /* Build configuration list for PBXNativeTarget "WonderfulTools Host" */;
+			buildPhases = (
+				9CF9B8C222B3A06B0026517B /* Sources */,
+				9CF9B8C322B3A06B0026517B /* Frameworks */,
+				9CF9B8C422B3A06B0026517B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "WonderfulTools Host";
+			productName = "Mindblown Test Host";
+			productReference = 9CF9B8C622B3A06B0026517B /* WonderfulTools Host.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9C1A986722B39D4A00EE1C84 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = "William Taylor";
+				TargetAttributes = {
+					9C1A986F22B39D4A00EE1C84 = {
+						CreatedOnToolsVersion = 10.2.1;
+						LastSwiftMigration = 1020;
+					};
+					9CF9B8C522B3A06B0026517B = {
+						CreatedOnToolsVersion = 10.2.1;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.Mac = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 9C1A986A22B39D4A00EE1C84 /* Build configuration list for PBXProject "WonderfulTools" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9C1A986622B39D4A00EE1C84;
+			productRefGroup = 9C1A987122B39D4A00EE1C84 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9C1A986F22B39D4A00EE1C84 /* WonderfulTools */,
+				9CF9B8C522B3A06B0026517B /* WonderfulTools Host */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9C1A986E22B39D4A00EE1C84 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C27093D22B5CF2400F16834 /* thumbnail.png in Resources */,
+				9C27093E22B5CF2400F16834 /* thumbnail@2.png in Resources */,
+				9C1D4B4B2328DFFF0011CD74 /* video.mp4 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9CF9B8C422B3A06B0026517B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9CF9B8CB22B3A06C0026517B /* Assets.xcassets in Resources */,
+				9CF9B8CE22B3A06C0026517B /* MainMenu.xib in Resources */,
+				9C1D4B4C2328DFFF0011CD74 /* video.mp4 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9C1A986C22B39D4A00EE1C84 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9CF9B91B22B4D06C0026517B /* Array+Appending.swift in Sources */,
+				9C1A987E22B39DEA00EE1C84 /* WonderfulToolsView.swift in Sources */,
+				9CF9B91F22B4D1620026517B /* Array+RemovingAll.swift in Sources */,
+				9C27091322B5028100F16834 /* Array+Safe.swift in Sources */,
+				9C1D4B492328DFF40011CD74 /* Video.swift in Sources */,
+				9CF9B90622B4ACA80026517B /* WonderfulToolsPlayer.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9CF9B8C222B3A06B0026517B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9CF9B91C22B4D06C0026517B /* Array+Appending.swift in Sources */,
+				9CF9B8C922B3A06B0026517B /* AppDelegate.swift in Sources */,
+				9CF9B92022B4D1620026517B /* Array+RemovingAll.swift in Sources */,
+				9C27091422B5028100F16834 /* Array+Safe.swift in Sources */,
+				9CF9B90722B4ACA80026517B /* WonderfulToolsPlayer.swift in Sources */,
+				9C1D4B4D2328E00B0011CD74 /* Video.swift in Sources */,
+				9CF9B8D422B3A08D0026517B /* WonderfulToolsView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		9CF9B8CC22B3A06C0026517B /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9CF9B8CD22B3A06C0026517B /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9C1A987822B39D4A00EE1C84 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		9C1A987922B39D4A00EE1C84 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		9C1A987B22B39D4A00EE1C84 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 5RTMJNH82H;
+				INFOPLIST_FILE = "$(SRCROOT)/WonderfulTools/Info.plist";
+				INSTALL_PATH = "$(HOME)/Library/Screen Savers";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.williamtaylor.wonderfultools;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				WRAPPER_EXTENSION = saver;
+			};
+			name = Debug;
+		};
+		9C1A987C22B39D4A00EE1C84 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 5RTMJNH82H;
+				INFOPLIST_FILE = "$(SRCROOT)/WonderfulTools/Info.plist";
+				INSTALL_PATH = "$(HOME)/Library/Screen Savers";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.williamtaylor.wonderfultools;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				WRAPPER_EXTENSION = saver;
+			};
+			name = Release;
+		};
+		9CF9B8D122B3A06C0026517B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Mindblown Host/Mindblown Host.entitlements";
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "$(SRCROOT)/WonderfulTools Host/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "WT-Tech.Mindblown-Test-Host";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		9CF9B8D222B3A06C0026517B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Mindblown Host/Mindblown Host.entitlements";
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "$(SRCROOT)/WonderfulTools Host/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "WT-Tech.Mindblown-Test-Host";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9C1A986A22B39D4A00EE1C84 /* Build configuration list for PBXProject "WonderfulTools" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9C1A987822B39D4A00EE1C84 /* Debug */,
+				9C1A987922B39D4A00EE1C84 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9C1A987A22B39D4A00EE1C84 /* Build configuration list for PBXNativeTarget "WonderfulTools" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9C1A987B22B39D4A00EE1C84 /* Debug */,
+				9C1A987C22B39D4A00EE1C84 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9CF9B8D322B3A06C0026517B /* Build configuration list for PBXNativeTarget "WonderfulTools Host" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9CF9B8D122B3A06C0026517B /* Debug */,
+				9CF9B8D222B3A06C0026517B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9C1A986722B39D4A00EE1C84 /* Project object */;
+}
